@@ -33,7 +33,7 @@ body {
 
 /* Ajustamos el texto arriba de la flor */
 .text-above {
-    top: -200px; /* Mover más arriba para dar más espacio */
+    top: -140px; /* Mover más arriba para dar más espacio */
 }
 
 /* Ajustamos el texto debajo de la flor */
