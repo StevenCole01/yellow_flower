@@ -32,8 +32,8 @@ body {
 }
 
 .text-above {
-    top: -80px;
-    font-size: 16px; /* Tamaño de la letra más pequeño para el texto de arriba */
+    top: -130px;
+    font-size: 18px; /* Tamaño de la letra más pequeño para el texto de arriba */
 }
 
 .text-below {
