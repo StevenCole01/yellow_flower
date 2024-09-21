@@ -23,6 +23,14 @@ body {
   animation: pulsate 2s infinite;
 }
 
+.text-above,
+.text-below {
+    position: absolute;
+    text-align: center;
+    color: #fff; /* Color del texto */
+    font-size: 18px; /* Tamaño de la letra reducido */
+}
+
 .text-above {
     top: -80px;
     font-size: 16px; /* Tamaño de la letra más pequeño para el texto de arriba */
