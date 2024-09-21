@@ -27,28 +27,21 @@ body {
 .text-below {
     position: absolute;
     text-align: center;
-    color: #fff; /* Color del texto */
-    font-size: 18px; /* Tamaño de la letra reducido */
+    color: #fff;
+    font-size: 18px;
 }
 
+/* Ajustamos el texto arriba de la flor */
 .text-above {
-    top: -200px;
-    font-size: 18px; /* Tamaño de la letra más pequeño para el texto de arriba */
+    top: -120px; /* Mover más arriba para dar más espacio */
 }
 
+/* Ajustamos el texto debajo de la flor */
 .text-below {
-    bottom: -100px;
-    font-size: 18px; /* Tamaño de la letra más pequeño para el texto de abajo */
-    line-height: 1.5; /* Mejora la legibilidad */
+    bottom: -80px; /* Ajusta el espacio bajo la flor */
+    line-height: 1.5;
 }
 
-.text-above {
-    top: -60px; /* Ajusta la posición vertical del texto arriba de la flor */
-}
-
-.text-below {
-    bottom: -60px; /* Ajusta la posición vertical del texto debajo de la flor */
-}
 @keyframes pulsate {
   0% {
       transform: scale(1.5);
